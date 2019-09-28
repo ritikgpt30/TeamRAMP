@@ -1,9 +1,9 @@
-body {
+
+html {
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
     background-image: url('bus.jpg');
-    background-position: relative;
-    background-size: 100% 100vh;
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
