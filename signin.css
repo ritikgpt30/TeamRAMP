@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-image: url('bus.jpg');
+    background-position: relative;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    backface-visibility: visible;
+    background-image: image-set();
+}
+
+.welc {
+    font-size: 300%;
+    color: orangered
+}
+
+.bg {
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-top: 6rem;
+    background-color: #ddd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=number],
+input[type=tel],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    align-content: center;
+    background: #f1f1f1;
+}
+
+input[type=number]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Extra styles for the cancel button */
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.signinbtn {
+    float: left;
+    width: 100%;
+}
+
+
+/* Add padding to container elements */
+
+.container {
+    padding: 16px;
+}
+
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    .signinbtn {
+        width: 100%;
+    }
+}
+
+.diff {
+    text-align: right;
+}
+
+#differ {
+    text-align: left;
+}
